@@ -44,7 +44,16 @@ This will take the `bootstrap.less` file found at the path, and insert an `@impo
 
 ## API
 
-### `new LessImportInserter(options)`
+### methods
+
+#### `build`
+
+Returns the less file with the added `@import` statements.
+
+
+### options
+
+`new LessImportInserter(options)`
 
 #### `options.lessPath` (required)
 

@@ -53,7 +53,7 @@ Returns the less file with the added `@import` statements.
 
 ### options
 
-`new LessImportInserter(options)`
+#### `new LessImportInserter(options)`
 
 #### `options.lessPath` (required)
 

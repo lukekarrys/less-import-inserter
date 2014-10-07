@@ -27,11 +27,9 @@ function LessImportInserter(options) {
     this.append = toImports(options.append, 'after');
     this.lessPath = options.lessPath;
     this.relativeTo = options.relativeTo;
-    this.less = this.lessPath ? fs.readFileSync(this.lessPath, 'utf8') : options.less;
+    this.less = this.lessPath && !options.less ? fs.readFileSync(this.lessPath, 'utf8') : options.less;
 
     if (!this.less) throw new Error('Use the `path` or `less` option to specify the less file.');
-
-    return this;
 }
 
 LessImportInserter.prototype.build = function () {
@@ -58,6 +56,7 @@ LessImportInserter.prototype.build = function () {
                 line += toImports(this.after[afterLine], 'after');
             }
         }, this);
+
         return line;
     }, this).join(os.EOL);
 

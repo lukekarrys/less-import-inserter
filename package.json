@@ -1,6 +1,6 @@
 {
   "name": "less-import-inserter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Insert some import statements into an existing Less file.",
   "main": "index.js",
   "scripts": {

@@ -1,31 +1,39 @@
 {
   "name": "less-import-inserter",
-  "version": "1.0.1",
   "description": "Insert some import statements into an existing Less file.",
-  "main": "index.js",
-  "scripts": {
-    "test": "lab -t 100"
+  "version": "1.0.1",
+  "author": "Luke Karrys",
+  "bugs": {
+    "url": "https://github.com/lukekarrys/less-import-inserter/issues"
   },
+  "devDependencies": {
+    "bootstrap": "^3.2.0",
+    "code": "^4.0.0",
+    "git-validate": "^2.2.2",
+    "lab": "^12.1.0",
+    "lessitizer": "^3.0.0",
+    "standard": "^8.6.0"
+  },
+  "homepage": "https://github.com/lukekarrys/less-import-inserter",
+  "keywords": [
+    "Bootstrap",
+    "Less",
+    "imports"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:lukekarrys/less-import-inserter.git"
   },
-  "keywords": [
-    "Less",
-    "Bootstrap",
-    "imports"
-  ],
-  "author": "Luke Karrys",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lukekarrys/less-import-inserter/issues"
-  },
-  "homepage": "https://github.com/lukekarrys/less-import-inserter",
-  "devDependencies": {
-    "bootstrap": "^3.2.0",
-    "jshint": "^2.5.6",
-    "lab": "^4.5.2",
-    "lessitizer": "^1.1.1",
-    "precommit-hook": "^1.0.7"
+  "scripts": {
+    "lint": "standard",
+    "test": "lab -t 100",
+    "validate": "npm ls"
   }
 }

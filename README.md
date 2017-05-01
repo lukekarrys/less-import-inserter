@@ -1,6 +1,8 @@
 less-import-inserter
 ====================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lukekarrys/less-import-inserter.svg)](https://greenkeeper.io/)
+
 [![NPM](https://nodei.co/npm/less-import-inserter.png)](https://nodei.co/npm/less-import-inserter/)
 [![Build Status](https://travis-ci.org/lukekarrys/less-import-inserter.png?branch=master)](https://travis-ci.org/lukekarrys/less-import-inserter)
 

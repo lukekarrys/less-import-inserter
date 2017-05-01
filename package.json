@@ -7,12 +7,13 @@
     "url": "https://github.com/lukekarrys/less-import-inserter/issues"
   },
   "devDependencies": {
-    "bootstrap": "^3.2.0",
+    "bootstrap": "^3.3.7",
     "code": "^4.0.0",
+    "eslint": "^3.19.0",
     "git-validate": "^2.2.2",
-    "lab": "^13.0.0",
+    "lab": "^13.0.3",
     "lessitizer": "^3.0.0",
-    "standard": "^9.0.0"
+    "standard": "^10.0.2"
   },
   "homepage": "https://github.com/lukekarrys/less-import-inserter",
   "keywords": [

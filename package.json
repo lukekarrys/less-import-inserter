@@ -8,9 +8,9 @@
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
-    "code": "^4.0.0",
+    "code": "^4.1.0",
     "git-validate": "^2.2.2",
-    "lab": "^14.0.0",
+    "lab": "^14.1.0",
     "lessitizer": "^3.0.0",
     "standard": "^10.0.2"
   },

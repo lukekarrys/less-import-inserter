@@ -9,6 +9,7 @@
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "code": "^4.1.0",
+    "eslint": "^3.19.0",
     "git-validate": "^2.2.2",
     "lab": "^14.1.0",
     "lessitizer": "^3.0.0",

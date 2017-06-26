@@ -15,6 +15,11 @@
     "lessitizer": "^3.0.0",
     "standard": "^10.0.2"
   },
+  "greenkeeper": {
+    "ignore": [
+      "eslint"  
+    ]
+  },
   "homepage": "https://github.com/lukekarrys/less-import-inserter",
   "keywords": [
     "Bootstrap",

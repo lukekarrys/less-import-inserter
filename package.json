@@ -17,7 +17,9 @@
   },
   "greenkeeper": {
     "ignore": [
-      "eslint"  
+      "code",
+      "eslint",
+      "lab"
     ]
   },
   "homepage": "https://github.com/lukekarrys/less-import-inserter",
